@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Web Buat Belajar">
+	<meta name="keywords" content="HTML,CSS">
+	<meta name="author" content="Just a Normal Steven">
+	<title>Just a Normal Steven</title>
+</head>
+<body>
+
+
+<!-- contoh pemberian gambar (img) tag p, warna lightblue, tag br, hr, tag meta, tag i, b, dan u -->
+<!-- latihan membuat heading (h1 h2 h3) h1 istilahnya kayak judul utama. h2 istilahnya ya kayak subjudul, begitu seterusnya -->
+<br><br>
+<a href="https://www.instagram.com/p/CTATE1EJY_u/?igshid=YmMyMTA2M2Y=">
+<img src="gambarhtml.jpg" title="gambar sembarang" width="200">
+</a>
+<br><br>
+<hr>
+<body bgcolor="lightblue">
+<p><b><i><h1>Hallo Bogor!</h1></i></b></p>
+<p><h2>Selamat datang di arya bogor 123# (っ ͡❛ ͜ʖ ͡❛)っ🎔</h2></p>
+<p><u><h3>#barubelajar</h3></u></p>
+<hr>
+<p><h4>Simplenya disini saya ingin jelaskan bahwa:</h4></p>
+
+<!-- belajar ol, gunanya buat numbering atau simbol. li itu simbolnya. ol type itu tipe numbering atau simbolnya misal angka atau huruf -->
+
+<ol type="A">
+	<li>Steven gabut</li>
+	<li>Steven pengen lancar ngoding</li>
+	<li>Steven ga pengen nganggur di masa mendatang</li>
+</ol>
+
+<!-- belajar ul, ya mirip kyk ol, tapi ul simbol titik, bisa sih tipenya diubah kayak ol jadi kotak atau apalah -->
+
+<p><h4>Kenapa pengen ngoding? Ini penjelasannya:</h4></p>
+<ul>
+	<li>Biar ga ganggur</li>
+	<li>cari uang ;V</li>
+</ul>
+
+<!-- dl isinya dt dan dd dt judul dd penjelasan singkat (bisa di liat di chrome contohnya) -->
+<h4>Dasar Ngoding:</h4>
+<dl>
+	<dt>HTML</dt>
+	<dd>Hypertext Markup Language</dd>
+	<dt>CSS</dt>
+	<dd>Cascading Style Sheet</dd>
+</dl>
+<hr>
+<!-- belajar naruh link website tertentu dengan a href -->
+<p>untuk latihan coding, ini website youtubenya. Click <a href="https://youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F">disini</a></p>
+<hr>
+<br><br>
+
+<!-- belajar table, unsurnya ada table, tr, td, colspan, rowspan, border, cellspacing, dan cellspadding -->
+
+<table border="1" cellspacing="0" cellpadding="5">
+	<thead>
+		<tr>
+			<th></th>
+			<th>Steven 1</th>
+			<th>Steven 2</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Satyam 1</th>
+			<td>Steven 1, Satyam 1</td>
+			<td>Steven 1, Satyam 2</td>
+		</tr>
+		<tr>
+			<th>Satyam 2</th>
+			<td>Satyam 2, Steven 1</td>
+			<td>Satyam 2, Steven 1</td>
+		</tr>
+	</tbody>
+</table>
+<br><br>
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<td rowspan="3">rowspan 3</td>
+		<td colspan="2">colspan 2</td>
+	</tr>
+	<tr>
+		<td>2 2</td>
+		<td>2 3</td>
+	</tr>
+	<tr>
+		<td>3 2</td>
+		<td>3 3</td>
+	</tr>
+</table>
+<br><br>
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<td>1,1</td>
+		<td>1,2</td>
+		<td>1,3</td>
+		<td>1,4</td>
+	</tr>
+	<tr>
+		<td>2,1</td>
+		<td colspan="2" rowspan="2">ACIMILAKA</td>
+		<td>2,4</td> 
+	</tr>
+	<tr>
+		<td>3,1</td>
+ 		<td>3,4</td>
+	</tr>
+	<tr>
+		<td>4,1</td>
+		<td>4,2</td>
+		<td>4,3</td>
+		<td>4,4</td>
+	</tr>
+</table>
+<br>
+<hr>
+
+<!-- Belajar bikin form, dibawah ini contoh form biasa -->
+<form>
+	<label for="username">username : </label>
+	<input type="text" id="username">
+	<br><br>
+	<label for="password">password : </label>
+	<input type="password" id="password">
+	<br><br>
+	<input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+	<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+	<br><br>
+	<input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+	<input type="checkbox" id="berenang"><label for="berenang">berenang</label>
+	<input type="checkbox" id="badut"><label for="badut">badut</label>
+	<input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+	<br><br>
+	<textarea></textarea>
+	<br><br>
+	<p>DAERAH INDONESIA (local)</p>
+	<select>
+		<option>Bogor</option>
+		<option>Bali</option>
+		<option>Jawa Timur</option>
+		<option>Klitih</option>
+	</select>
+	<br>
+	<p>LUAR NEGERI (non-local)</p>
+	<select>
+		<option>Bangladesh</option>
+		<option>India</option>
+		<option>USA</option>
+		<option>UK</option>
+	</select>
+	<br><br>
+	<button type="submit">Kirim!!</button>
+</form>
+<br><br><br><br>
+<!-- dibawah ini contoh form di gabung table, agar lebih rapi -->
+<form>
+<table border="1" cellspacing="0" cellpadding="4">
+	<tr>
+		<td><p>Username :</p></td>
+		<td><label for="username"></label><input type="text" id="username"></td>
+	</tr>
+	<tr>
+		<td><p>Password :</p></td>
+		<td><label for="password"></label><input type="password" id="password"></td>
+	</tr>
+	<tr>
+		<td><p>Jenis Kelamin</p></td>
+		<td><input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+	<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+<input type="radio" id="waria" name="jeniskelamin"><label for="waria">waria</label></td>
+	</tr>
+	<tr>
+		<td>Hobi</td>
+		<td><input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+	<input type="checkbox" id="berenang"><label for="berenang">berenang</label>
+	<input type="checkbox" id="badut"><label for="badut">badut</label>
+	<input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label></td>
+	</tr>
+	<tr>
+		<td><p>DAERAH INDONESIA (local)</p></td>
+	<td><select>
+		<option>Bogor</option>
+		<option>Bali</option>
+		<option>Jawa Timur</option>
+		<option>Klitih</option>
+	</select></td>
+</tr>
+	<br>
+	<tr>
+	<td><p>LUAR NEGERI (non-local)</p></td>
+	<td><select>
+		<option>None</option>
+		<option>Bangladesh</option>
+		<option>India</option>
+		<option>USA</option>
+		<option>UK</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td><p>keterangan</p></td>
+		<td><textarea></textarea></td>
+	</tr>
+	<tr>
+		<td><p>Apabila sudah selesai</p>
+			<p>Harap dikirimkan!</p></td>
+		<td><button type="submit">Kirim!</button></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
